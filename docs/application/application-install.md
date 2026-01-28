@@ -125,15 +125,13 @@ LibriX는 GUI 기반의 직관적인 배포 인터페이스를 제공하여, Lib
     [새 애플리케이션 설치]
 ```
 
-![애플리케이션 설치 메뉴](images/app_install/app_install_menu.png)
-
 ### 설치 화면 구성
 
 애플리케이션 설치 화면은 다음 단계로 구성됩니다:
 
 #### 1단계: 애플리케이션 파일 선택
 
-![애플리케이션 파일 선택](images/app_install/app_select_file.png)
+![애플리케이션 파일 선택](images/app_install/app_install_step1.png)
 
 **파일 업로드 방법:**
 - **찾아보기 버튼**: 로컬 파일 시스템에서 WAR/EAR 파일 선택
@@ -154,7 +152,7 @@ LibriX는 GUI 기반의 직관적인 배포 인터페이스를 제공하여, Lib
 
 #### 2단계: 애플리케이션 설정
 
-![애플리케이션 기본 설정](images/app_install/app_basic_config.png)
+![애플리케이션 기본 설정](images/app_install/app_install_step2.png)
 
 **애플리케이션 이름**
 - 자동 생성: 파일명에서 확장자를 제외한 이름
@@ -180,7 +178,7 @@ LibriX는 GUI 기반의 직관적인 배포 인터페이스를 제공하여, Lib
 
 #### 3단계: 배포 대상 선택
 
-![배포 대상 선택](images/app_install/app_select_target.png)
+![배포 대상 선택](images/app_install/app_install_step3.png)
 
 LibriX는 WebSphere Application Server ND 스타일의 배포 대상 선택을 제공합니다:
 
@@ -207,7 +205,7 @@ LibriX는 WebSphere Application Server ND 스타일의 배포 대상 선택을 �
 
 #### 4단계: 고급 설정 (선택사항)
 
-![고급 설정](images/app_install/app_advanced_config.png)
+![고급 설정](images/app_install/app_install_step4.png)
 
 **클래스로더 설정**
 - **Parent First** (기본값): 부모 클래스로더 우선
@@ -232,7 +230,7 @@ LibriX는 WebSphere Application Server ND 스타일의 배포 대상 선택을 �
 
 #### 5단계: 설치 확인
 
-![설치 확인](images/app_install/app_confirm_install.png)
+![설치 확인](images/app_install/app_install_step5.png)
 
 **설치 요약 정보:**
 - 애플리케이션 이름 및 파일 정보
@@ -255,7 +253,7 @@ LibriX는 WebSphere Application Server ND 스타일의 배포 대상 선택을 �
 
 ### 설치 결과 확인
 
-![설치 결과](images/app_install/app_install_result.png)
+설치가 완료되면 결과 화면이 표시됩니다.
 
 **성공 시:**
 - 녹색 체크 아이콘 표시
@@ -277,7 +275,7 @@ LibriX는 WebSphere Application Server ND 스타일의 배포 대상 선택을 �
 애플리케이션 → 엔터프라이즈 애플리케이션
 ```
 
-![엔터프라이즈 애플리케이션 목록](images/app_install/app_list.png)
+배포된 애플리케이션은 엔터프라이즈 애플리케이션 메뉴에서 확인할 수 있습니다.
 
 **표시 정보:**
 - 애플리케이션 이름
